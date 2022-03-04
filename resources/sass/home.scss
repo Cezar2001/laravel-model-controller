@@ -1,0 +1,21 @@
+.container{
+    background-color: #666;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .movie-card{
+        width: 25%;
+        height: 300px;
+        padding: 20px;
+
+        h2{
+            padding: 15px 0;
+        }
+
+        p{
+            padding: 5px 0;
+        }
+    }
+}
