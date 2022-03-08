@@ -4,11 +4,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 15px;
 
     .movie-card{
         width: 25%;
         height: 300px;
-        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        background-color: #888;
 
         h2{
             padding: 15px 0;
